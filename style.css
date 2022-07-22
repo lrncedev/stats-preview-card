@@ -27,7 +27,6 @@
   margin: 0;
   padding: 0;
   font: inherit;
-  /* outline: 1px solid white; */
 }
 
 body {
@@ -54,7 +53,8 @@ body {
 }
 .preview-img {
   background-color: var(--clr-accent);
-  background: linear-gradient(rgba(80, 9, 124, 0.5),rgba(80, 9, 124, 0.5)), url('images/image-header-mobile.jpg');
+  background: linear-gradient(rgba(80, 9, 124, 0.5), rgba(80, 9, 124, 0.5)),
+    url("images/image-header-mobile.jpg");
   min-height: 300px;
   width: 100%;
   height: 20%;
@@ -75,7 +75,7 @@ body {
   font-weight: 700;
   font-size: 1.8rem;
   margin-bottom: 1rem;
-} 
+}
 
 .pr-desc {
   font-family: var(--ff-inter);
@@ -83,7 +83,6 @@ body {
   color: var(--clr-half);
   line-height: 1.5;
   font-size: 1rem;
-  
 }
 
 .ft-item {
@@ -91,7 +90,7 @@ body {
   flex-direction: column;
   font-family: var(--ff-inter);
   padding: 1rem 0;
-  gap: .4rem;
+  gap: 0.4rem;
 }
 .item-heading {
   font-weight: 700;
@@ -103,7 +102,7 @@ body {
   text-transform: uppercase;
   font-weight: 300;
   color: var(--clr-half);
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .attribution {
@@ -115,7 +114,7 @@ body {
 }
 
 .attribution a {
-  color: var(--clr-accent)
+  color: var(--clr-accent);
 }
 
 @media screen and (min-width: 40em) {
@@ -135,7 +134,7 @@ body {
     width: 80%;
     overflow: visible;
   }
-  
+
   .flex-item {
     width: 100%;
     height: 100%;
@@ -153,35 +152,19 @@ body {
     justify-content: center;
   }
 
-
   .preview-desc > * {
     padding: 0 3rem;
   }
   .pr-heading {
     margin: 0;
-    
-  }
-  
-  .features {
-    display: flex;
-    gap: 4.5rem;
-  }
-/* 
-  .preview-img {
-    height: 100%;
-  }
-
-
-  .pr-desc {
-    width: 80%;
   }
 
   .features {
     display: flex;
     gap: 4.5rem;
-  } 
+  }
 
   .attribution {
     display: block;
-  }  */
+  }
 }
